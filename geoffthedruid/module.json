@@ -1,0 +1,31 @@
+{
+    "name": "geoffthedruid",
+    "title": "Geoff the Smart Druid",
+    "description": "Geoff is a very intelligent druid. They're very fascinated by the nature of these magical crystals everyone here seems to be so fond of.",
+    "authors": [ { "name": "Bread" } ],
+    "version": "1",
+    "minimumCoreVersion": "0.8.9",
+    "compatibleCoreVersion": "9.269",
+    "dependencies": [
+        {
+            "name": "dae"
+        }
+    ],
+    "system": [ "dnd5e" ],
+    "packs": [
+        {
+            "name": "geoff",
+            "label": "Geoff the Druid",
+            "path": "geoff.db",
+            "type": "Actor",
+            "module": "geoffthedruid"
+        },
+        {
+            "name": "geoffsstuff",
+            "label": "Geoff's Stuff",
+            "path": "geoffsstuff.db",
+            "type": "Item",
+            "module": "geoffthedruid"
+        }
+    ]
+}
